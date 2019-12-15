@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
 
     # This script requires a Raspberry Pi 2, 3 or Zero. Circuit Python must
     # be installed and it is strongly recommended that you use the latest
     # release of Raspbian.
-import subprocess
+
+    import subprocess
 import time
 import os
 import board
