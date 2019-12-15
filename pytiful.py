@@ -4,7 +4,7 @@
     # be installed and it is strongly recommended that you use the latest
     # release of Raspbian.
 
-    import subprocess
+import subprocess
 import time
 import os
 import board
