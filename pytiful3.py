@@ -54,31 +54,31 @@ while True:
      if not button1.value:
         subprocess.call(['killall', 'mpg123'])
         print("stopped previous track")
-        os.system('mpg123 -q http://east-mp3-128.streamthejazzgroove.com/ &')
+        os.system('mpg123 -f 7000 http://east-mp3-128.streamthejazzgroove.com/ &')
         print ("playing jazz groove")
 
      if not button2.value:
         print("stopped previous track")
         subprocess.call(['killall', 'mpg123'])
-        os.system('mpg123 -q http://server1.chilltrax.com:9000/ &')
+        os.system('mpg123 -f 7000 http://server1.chilltrax.com:9000/ &')
         print ("playing chilltrax")
         
      if not button3.value:
         subprocess.call(['killall', 'mpg123'])
         print("stopped previous track")
-        os.system('mpg123 -q http://lb.zenfm.be/zenfm.mp3 &')
+        os.system('mpg123 -f 7000 http://lb.zenfm.be/zenfm.mp3 &')
         print ("playing zenfm")
 
      if not button4.value:
         subprocess.call(['killall', 'mpg123'])
         print("stopped previous track")
-        os.system('mpg123 -q http://ice2.somafm.com/christmas-256-mp3 &')
+        os.system('mpg123 -f 7000 http://ice2.somafm.com/christmas-256-mp3 &')
         print("playing SomaFM Christmas")
 
      if not button5.value:
         subprocess.call(['killall', 'mpg123'])
         print("stopped previous track")
-        os.system('mpg123 -q http://ice1.somafm.com/groovesalad-256-mp3 &')
+        os.system('mpg123 -f 7000 http://ice1.somafm.com/groovesalad-256-mp3 &')
         print ("playing groove salad")
 
      if not button6.value:  #stop playing music
