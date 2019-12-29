@@ -15,37 +15,37 @@ print("press a button!") #used for testing
 #Define our button selection- 5 buttons for station choices:
 
 #First Button 
-button1 = digitalio.DigitalInOut(board.D24)
+button1 = digitalio.DigitalInOut(board.D26)
 button1.direction = digitalio.Direction.INPUT
 button1.pull = digitalio.Pull.UP
 
 #Second Button
-button2 = digitalio.DigitalInOut(board.D23)
+button2 = digitalio.DigitalInOut(board.D6)
 button2.direction = digitalio.Direction.INPUT
 button2.pull = digitalio.Pull.UP
 
 #Third Button 
-button3 = digitalio.DigitalInOut(board.D5)
+button3 = digitalio.DigitalInOut(board.D13)
 button3.direction = digitalio.Direction.INPUT
 button3.pull = digitalio.Pull.UP
 
 #Fourth Button
-button4 = digitalio.DigitalInOut(board.D17)
+button4 = digitalio.DigitalInOut(board.D5)
 button4.direction = digitalio.Direction.INPUT
 button4.pull = digitalio.Pull.UP
 
 #Fifth button
-button5 = digitalio.DigitalInOut(board.D22)
+button5 = digitalio.DigitalInOut(board.D12)
 button5.direction = digitalio.Direction.INPUT
 button5.pull = digitalio.Pull.UP
 
 #A poor mans pause button in case of awful sound
-button6 = digitalio.DigitalInOut(board.D27)
+button6 = digitalio.DigitalInOut(board.D24)
 button6.direction = digitalio.Direction.INPUT
 button6.pull = digitalio.Pull.UP
 
 #A shutdown button
-button = digitalio.DigitalInOut(board.D3)
+button7 = digitalio.DigitalInOut(board.D3)
 button7.direction = digitalio.Direction.INPUT
 button7.pull = digitalio.Pull.UP
 
